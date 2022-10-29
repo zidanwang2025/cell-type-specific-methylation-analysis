@@ -30,8 +30,8 @@ Use ```TCA_generate. R``` & ```run_tca.sh``` generate:
 5. ```Tensor_Z.RData```
 
 **Step 2:**
-For ***Apporach 1:*** use 4. ```TCA_results.RData```, run function ```tca_one_hits()```
-For  ***Apporach 2:*** use 5. ```Tensor_Z.RData```, run fixed effect model
-For  ***Apporach 3:*** 1) use 1. ```EpiDish_estimated_W.RData```, 2. ```cov.RData```, and 3. ```X.RData```, run ```Approach3_Regression.py```, generate pvalues.csv. then 2) run ```tca_three_hits()```
+For ***Approach 1:*** use 4. ```TCA_results.RData```, run function ```tca_one_hits()```
+For  ***Approach 2:*** use 5. ```Tensor_Z.RData```, run fixed effect model
+For  ***Approach 3:*** 1) use 1. ```EpiDish_estimated_W.RData```, 2. ```cov.RData```, and 3. ```X.RData```, run ```Approach3_Regression.py```, generate pvalues.csv. then 2) run ```tca_three_hits()```
 
 
